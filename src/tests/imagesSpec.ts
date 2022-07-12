@@ -8,7 +8,7 @@ const request = supertest(app);
 describe('Test images resizer', () => {
     it('Checks if the new thumb image was created', async () => {
         const result = await resizer('palmtunnel', 200, 200);
-        expect(result).toBe(path.resolve(`./assets/images/thumbs/palmtunnel.jpg`));
+        expect(result).toBe(path.resolve(`./assets/images/thumbs/palmtunnel_w200_h200.jpg`));
     });
 
     it('Checks if the it throws the correct error when the image does not exists', async () => {
