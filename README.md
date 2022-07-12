@@ -1,5 +1,6 @@
 ## Endpoints ##
 - /api/images  
+
     **URL Params**
 
     image=[sring]  obs: Name of the image without the extension  
