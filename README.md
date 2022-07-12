@@ -1,10 +1,10 @@
 ## Endpoints ##
-- /api/images
+- /api/images  
     **URL Params**
 
-    image=[sring]  obs: Name of the image without the extension
-    width=[number]
-    height=[number]
+    image=[sring]  obs: Name of the image without the extension  
+    width=[number]  
+    height=[number]  
 
     **Usage example**  
     /api/images?image=fjord&width=200&height=200
