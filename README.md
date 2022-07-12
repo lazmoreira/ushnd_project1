@@ -3,7 +3,7 @@
 
     **URL Params**
 
-    image=[sring]  obs: Name of the image without the extension  
+    image=[string]  obs: Name of the image without the extension  
     width=[number]  
     height=[number]
 
