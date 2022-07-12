@@ -1,5 +1,5 @@
-import express from "express";
-import images from "./images/images";
+import express from 'express';
+import images from './images/images';
 
 const routes = express.Router();
 
