@@ -5,7 +5,7 @@ import NodeCache from 'node-cache';
 const images = express.Router();
 const cacheObj = new NodeCache();
 
-images.get('/', async (req, res) => {
+images.get('/', async (req: express.Request, res: express.Response) => {
     try {
         let errorMsg = '';
 

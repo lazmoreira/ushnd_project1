@@ -14,10 +14,10 @@ const resizer = async (
         if (existsSync(imagePath)) {
             await sharp(imagePath)
                 .resize(width, height)
-                .toFile(path.resolve(`./assets/images/thumbs/${imageName}.jpg`));
+                .toFile(path.resolve(`./assets/images/thumbs/${imageName}_w${width}_h${height}.jpg`));
 
             const resizedImage = path.resolve(
-                `./assets/images/thumbs/${imageName}.jpg`
+                `./assets/images/thumbs/${imageName}_w${width}_h${height}.jpg`
             );
 
             if (!existsSync(resizedImage)) {
