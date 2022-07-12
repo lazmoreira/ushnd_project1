@@ -1,32 +1,32 @@
 ## Endpoints ##
     - /api/images
 
-        ** URL Params **
+        **URL Params**
 
         image=[sring]  obs: Name of the image without the extension
         width=[number]
         height=[number]
 
-        ** Usage example **
+        **Usage example**
 
         /api/images?image=fjord&width=200&height=200
 
 ## Scripts ##
 
-** Build **
+**Build**
 npm run build
 
-** Unit tests **
+**Unit tests**
 npm run jasmine
 
-** Build and tests **
+**Build and tests**
 npm run test
 
-** Nodemon start **
+**Nodemon start**
 npm run start
 
-** Fix coding style **
+**Fix coding style**
 npm run prettier
 
-** Linting **
+**Linting**
 npm run lint
